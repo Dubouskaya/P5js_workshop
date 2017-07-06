@@ -10,10 +10,12 @@ function setup(){
 
     fill(255);
     //rect(100, 100, 50, 200); //rect(x, y, width. height);
-    rectH = height/3;
-    rectW = width/3;
+    rectH = height/4;
+    rectW = width/20;
 
-    rect(width/2, height/2, rectW, rectH);
+    for(var i=0; i<10; i++){
+      rect((i+0.5)*(width/10), height/2, rectW, rectH);
+    }
 }
 
 function draw(){

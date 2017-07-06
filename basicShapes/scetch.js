@@ -24,7 +24,6 @@ function setup(){
     stroke(0, 100, 50);
     strokeWeight(5);
     line(100, 100, 400, 400);
-    point(300, 300);
     //rect(width/2, height/2, width/4, height/4);
 }
 
